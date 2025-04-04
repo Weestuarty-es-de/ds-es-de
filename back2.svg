@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1080"
+   height="1080"
+   viewBox="0 0 285.74999 285.75"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="back2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#000000"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.62760417"
+     inkscape:cx="811.02074"
+     inkscape:cy="541.74274"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect4745"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.99999;stroke-linecap:round;stroke-miterlimit:4.5;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 12.774414 -12.22561 C -1.0755721 -12.22561 -12.22561 -1.0755721 -12.22561 12.774414 L -12.22561 273.47633 C -12.22561 287.32632 -1.0755721 298.47635 12.774414 298.47635 L 276.42757 298.47635 C 290.27756 298.47635 301.4276 287.32632 301.4276 273.47633 L 301.4276 12.774414 C 301.4276 -1.0755721 290.27756 -12.22561 276.42757 -12.22561 L 12.774414 -12.22561 z M 35.375102 10.375077 L 250.3749 10.375077 C 264.22488 10.375077 275.37492 21.525116 275.37492 35.375102 L 275.37492 250.3749 C 275.37492 264.22488 264.22488 275.37492 250.3749 275.37492 L 35.375102 275.37492 C 21.525116 275.37492 10.375077 264.22488 10.375077 250.3749 L 10.375077 35.375102 C 10.375077 21.525116 21.525116 10.375077 35.375102 10.375077 z " />
+    <rect
+       style="fill:#ffffff;stroke-width:0.999331;stroke-linecap:round;stroke-miterlimit:4.5;paint-order:fill markers stroke;fill-opacity:1"
+       id="rect1479"
+       width="285.75"
+       height="285.75"
+       x="0"
+       y="0" />
+  </g>
+</svg>

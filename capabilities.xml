@@ -1,0 +1,65 @@
+<themeCapabilities>
+   <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>19.5:9</aspectRatio>
+    <aspectRatio>1:1</aspectRatio>
+   <themeName>DS</themeName>
+   <fontSize>medium</fontSize>
+   <fontSize>large</fontSize>
+
+   <language>en_US</language>
+    <language>en_GB</language>
+    <language>ca_ES</language>
+    <language>de_DE</language>
+    <language>es_ES</language>
+    <language>fr_FR</language>
+    <language>it_IT</language>
+    <language>nl_NL</language>
+    <language>pl_PL</language>
+    <language>pt_BR</language>
+    <language>ro_RO</language>
+    <language>ru_RU</language>
+    <language>sv_SE</language>
+    <language>ja_JP</language>
+    <language>ko_KR</language>
+    <language>zh_CN</language>
+    <language>zh_TW</language>
+    <variant name="XL">
+        <label>Grid</label>
+        <selectable>true</selectable>
+    </variant>
+<variant name="M">
+        <label>Carousel</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="SM">
+        <label>R4</label>
+        <selectable>true</selectable>
+    </variant>
+
+<colorScheme name="ds">
+        <label>DS</label>
+    </colorScheme>
+    <colorScheme name="dsdark">
+        <label>DS Dark</label>
+    </colorScheme>
+    <colorScheme name="nes">
+        <label>NES</label>
+    </colorScheme>
+    <colorScheme name="snes">
+        <label>SNES</label>
+    </colorScheme>
+<colorScheme name="fam">
+        <label>Famicom</label>
+    </colorScheme>
+    <colorScheme name="gold">
+        <label>Gold</label>
+    </colorScheme>
+    <colorScheme name="oled">
+        <label>Oled</label>
+    </colorScheme>
+    <colorScheme name="blue">
+        <label>Blueprint</label>
+    </colorScheme>
+</themeCapabilities>

@@ -1,0 +1,947 @@
+<theme>
+    <fontSize name="medium">
+    <variables>
+       <helpFont>0.0425</helpFont>
+       <gridFont>0.04</gridFont>
+       <metaFont>0.04</metaFont>
+       <descFont>0.045</descFont>
+       <textlist>0.07</textlist>
+    </variables>
+    </fontSize>
+<fontSize name="large">
+    <variables>
+       <helpFont>0.0475</helpFont>
+       <gridFont>0.05</gridFont>
+       <metaFont>0.055</metaFont>
+       <descFont>0.055</descFont>
+       <textlist>0.08</textlist>
+    </variables>
+    </fontSize>
+
+ <view name="system, gamelist">
+        
+        <image name="back3">
+            <pos>0.4525 0.5</pos>
+            <size>1.1 1</size>
+            <origin>0.5 0.5</origin>
+            <tile>true</tile>
+            <tileSize>0 0.1</tileSize>
+            <path>./dsback3.svg</path>
+            <color>${back3}</color>
+            <zIndex>0</zIndex>
+        </image>
+        <image name="back2">
+            <pos>0.4525 0.5</pos>
+            <size>1.1 1</size>
+            <origin>0.5 0.5</origin>
+            <tile>true</tile>
+            <tileSize>0 0.1</tileSize>
+            <path>./dsback2.svg</path>
+            <color>${back2}</color>
+            <zIndex>1</zIndex>
+        </image><image name="back1">
+            <pos>0.4525 0.5</pos>
+            <size>1.1 1</size>
+            <origin>0.5 0.5</origin>
+            <tile>true</tile>
+            <tileSize>0 0.1</tileSize>
+            <path>./dsback1.svg</path>            
+            <color>${back1}</color>
+            <zIndex>2</zIndex>
+        </image>
+        <helpsystem name="help">
+            <pos>0.5 0.975</pos>
+            <origin>0.5 0.5</origin>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${helpFont}</fontSize>
+        <textColor>${textColor}</textColor>
+            <iconColor>${textColor}</iconColor>
+        </helpsystem>
+    </view>
+
+    <view name="system">
+        <grid name="system_grid">
+            <pos>0.0575 0.105</pos>
+            <origin>0 0</origin>
+            <size>0.9 0.7</size>
+            <itemSpacing>0.0225 0.0305</itemSpacing>
+            <itemSize>0.2025 0.27</itemSize>
+            <text>${system.fullName}</text>
+            <textRelativeScale>0.9</textRelativeScale>
+            <staticImage>./system/icons/${system.theme}.png</staticImage>
+            <backgroundImage>./assets/${colorscheme}/gridback.svg</backgroundImage>
+            <backgroundRelativeScale>0.95</backgroundRelativeScale>
+            <selectorImage>./space.webp</selectorImage>
+            <selectorLayer>bottom</selectorLayer>
+            <selectorColor>${selectorColor}</selectorColor>
+            <selectorRelativeScale>1.1</selectorRelativeScale>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${gridFont}</fontSize>
+        <textColor>${textColor}</textColor>
+        </grid>
+      <image name="logo1">
+            <pos>0.06 0.71</pos>
+            <size>0.5825 0.18</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="logo2">
+            <pos>0.06 0.71</pos>
+            <size>0.5825 0.18</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="logo3">
+            <pos>0.06 0.71</pos>
+            <size>0.5825 0.18</size>
+            <path>./tileb.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+
+        <image name="logosvg">
+            <pos>0.35125 0.8</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.56 0.08</maxSize>
+            <path>./system/logos/system-logo-white/${system.theme}.svg</path>
+            <default>./system/custom/logo/${system.theme}.svg</default>
+            <color>${logoColor}</color>
+        </image>
+        <image name="text boxA1">
+            <pos>0.6625 0.71</pos>
+            <size>0.275 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="text boxA2">
+            <pos>0.6625 0.71</pos>
+            <size>0.275 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="text boxA3">
+            <pos>0.6625 0.71</pos>
+            <size>0.275 0.08</size>
+            <path>./tile.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="text boxB1">
+            <pos>0.6625 0.805</pos>
+            <size>0.275 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="text boxB2">
+            <pos>0.6625 0.805</pos>
+            <size>0.275 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="text boxB3">
+            <pos>0.6625 0.805</pos>
+            <size>0.275 0.08</size>
+            <path>./tile.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="text boxC1">
+        <visible>false</visible>
+        </image>
+        <image name="text boxC2">
+        <visible>false</visible>
+        </image>
+        <image name="text boxC3">
+        <visible>false</visible>
+        </image>
+        <image name="text boxD1">
+        <visible>false</visible>
+        </image>
+        <image name="text boxD2">
+        <visible>false</visible>
+        </image>
+        <image name="text boxD3">
+        <visible>false</visible>
+        </image>
+
+        <text name="games">
+            <pos>0.67 0.71</pos>
+            <size>0.26 0.08</size>
+            <systemdata>gamecountGames</systemdata>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${metaFont}</fontSize>
+            <lineSpacing>0.95</lineSpacing>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${textColor}</color>
+        </text>
+        <text name="favourites">
+            <pos>0.67 0.81</pos>
+            <size>0.26 0.08</size>
+            <systemdata>gamecountFavorites</systemdata>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${metaFont}</fontSize>
+            <lineSpacing>0.95</lineSpacing>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${textColor}</color>
+        </text>
+        <text name="date">
+        <visible>false</visible>
+        </text>
+        <text name="man">
+        <visible>false</visible>
+        </text>
+        <image name="desc box1">
+        <visible>false</visible>
+        </image>
+        <image name="desc box2">
+        <visible>false</visible>
+        </image>
+        <image name="desc box3">
+        <visible>false</visible>
+        </image>
+        <text name="desc">
+        <visible>false</visible>
+        </text>
+    </view>
+<variant name="XL">
+
+    <view name="gamelist">
+
+        <grid name="system_grid">
+            <pos>0.055 0.105</pos>
+            <origin>0 0</origin>
+            <size>0.69 0.8</size>
+            <itemSpacing>0.0125 0.019</itemSpacing>
+            <imageRelativeScale>0.85</imageRelativeScale>
+            <staticImage>./system/icons/${system.theme}.png</staticImage>
+            <itemSize>0.2125 0.18</itemSize>
+            <text>${system.fullName}</text>
+            <textRelativeScale>0.9</textRelativeScale>
+            <backgroundImage>./assets/${colorscheme}/gridback.svg</backgroundImage>
+            <backgroundRelativeScale>0.95</backgroundRelativeScale>
+            <selectorImage>./space.webp</selectorImage>
+            <selectorLayer>bottom</selectorLayer>
+            <selectorColor>${selectorColor}</selectorColor>
+            <selectorRelativeScale>1.1</selectorRelativeScale>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${gridFont}</fontSize>
+            <textColor>${textColor}</textColor>
+        </grid>
+
+       
+        <image name="text boxP1">
+            <pos>0.73 0.11</pos>
+            <size>0.215 0.38</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="text boxP2">
+            <pos>0.73 0.11</pos>
+            <size>0.215 0.38</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="text boxP3">
+            <pos>0.73 0.11</pos>
+            <size>0.215 0.38</size>
+            <path>./tilec.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+
+        <image name="cover">
+            <imageType>cover</imageType>
+            <pos>0.839 0.3</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.2075 0.36</maxSize>
+        </image>
+
+        <image name="text boxD1">
+            <pos>0.73 0.61</pos>
+            <size>0.105 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="text boxD2">
+            <pos>0.73 0.61</pos>
+            <size>0.105 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="text boxD3">
+            <pos>0.73 0.61</pos>
+            <size>0.105 0.08</size>
+            <path>./tiled.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="text boxC1">
+            <pos>0.8425 0.61</pos>
+            <size>0.105 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="text boxC2">
+            <pos>0.8425 0.61</pos>
+            <size>0.105 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="text boxC3">
+            <pos>0.8425 0.61</pos>
+            <size>0.105 0.08</size>
+            <path>./tiled.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="text boxB1">
+            <pos>0.73 0.51</pos>
+            <size>0.2175 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="text boxB2">
+            <pos>0.73 0.51</pos>
+            <size>0.2175 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="text boxB3">
+            <pos>0.73 0.51</pos>
+            <size>0.2175 0.08</size>
+            <path>./tile.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="playericons">
+            <pos>0.85 0.6225</pos>
+            <size>0.035 0.05</size>
+            <path>./player.svg</path>
+            <color>${textColor}</color>
+            <zIndex>6</zIndex>
+        </image>
+        <datetime name="release">
+            <metadata>releasedate</metadata>
+            <format>%Y</format>
+            <pos>0.73 0.61</pos>
+            <size>0.105 0.08</size>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${metaFont}</fontSize>
+            <lineSpacing>0.975</lineSpacing>
+            <defaultValue>:space:</defaultValue>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${textColor}</color>
+        </datetime>
+        <text name="player">
+            <metadata>players</metadata>
+            <pos>0.87 0.61</pos>
+            <size>0.08 0.08</size>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${metaFont}</fontSize>
+            <lineSpacing>0.975</lineSpacing>
+            <defaultValue>:space:</defaultValue>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${textColor}</color>
+        </text>
+        <text name="dev">
+            <metadata>developer</metadata>
+            <container>true</container>
+            <containerType>horizontal</containerType>
+            <pos>0.735 0.51</pos>
+            <size>0.2075 0.08</size>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${metaFont}</fontSize>
+            <lineSpacing>0.975</lineSpacing>
+            <defaultValue>:space:</defaultValue>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${textColor}</color>
+        </text>
+        <image name="text boxR1">
+            <pos>0.73 0.71</pos>
+            <size>0.2175 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="text boxR2">
+            <pos>0.73 0.71</pos>
+            <size>0.2175 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="text boxR3">
+            <pos>0.73 0.71</pos>
+            <size>0.2175 0.08</size>
+            <path>./tile.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <rating name="rating">
+            <pos>0.735 0.72</pos>
+            <size>0.05 0.055</size>
+            <interpolation>nearest</interpolation>
+            <color>${textColor}</color>
+            <filledPath>./assets/rating_filled.svg</filledPath>
+            <unfilledPath>./assets/rating_empty.svg</unfilledPath>
+        </rating>
+        <badges name="all">
+            <pos>0.7315 0.8085</pos>
+            <size>0.215 .09</size>
+            <direction>row</direction>
+            <lines>1</lines>
+            <itemsPerLine>3</itemsPerLine>
+            <slots>controller, completed, favorite</slots>
+            <controllerPos>0.5 0.5</controllerPos>
+            <controllerSize>0.95</controllerSize>
+            <customBadgeIcon badge="manual">./assets/${colorscheme}/manual.svg</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./assets/${colorscheme}/fave.svg</customBadgeIcon>
+            <customBadgeIcon badge="completed">./assets/${colorscheme}/completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/${colorscheme}/control.svg</customBadgeIcon>
+        </badges>
+    </view>
+    </variant>
+        
+<variant name="M">
+    <view name="gamelist">
+        <carousel name="system_carousel">
+                <pos>0.059 -0.2</pos>
+                <size>0.9 .9</size>
+                <itemSize>0.19 0.27</itemSize>
+                <imageType>marquee</imageType>
+                <itemScale>1</itemScale>
+                <color>00000000</color>
+                <horizontalOffset>-0.405</horizontalOffset>
+                <selectedItemMargins>0.032 0.0235</selectedItemMargins>
+                <selectedItemOffset>0. 0</selectedItemOffset>
+                <maxItemCount>4.</maxItemCount>
+                <unfocusedItemOpacity>.5</unfocusedItemOpacity>
+                <fontSize>${gridFont}</fontSize>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>1.1</lineSpacing>
+                <itemTransitions>instant</itemTransitions>
+                <zIndex>9</zIndex>
+                <textColor>${textColor}</textColor>
+            </carousel>
+        <image name="gamelogo">
+            <pos>0.1665 0.55</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.205 0.27</maxSize>
+            <imageType>marquee</imageType>
+            <zIndex>17</zIndex>
+        </image>
+        <image name="gamelogoa">
+            <pos>0.167 0.5515</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.205 0.27</maxSize>
+            <imageType>marquee</imageType>
+            <color>000000</color>
+            <zIndex>16</zIndex>
+        </image>
+        <image name="logobox1">
+            <pos>0.059 0.11</pos>
+            <size>0.215 0.28</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>10</zIndex>
+        </image>
+        <image name="logobox1a">
+            <pos>0.059 0.11</pos>
+            <size>0.215 .28</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>11</zIndex>
+        </image>
+        <image name="logobox1b">
+            <pos>0.059 0.11</pos>
+            <size>0.215 0.28</size>
+            <path>./tileb.svg</path>
+            <color>${tile3}</color>
+            <zIndex>12</zIndex>
+        </image>
+        <image name="logo">
+            <pos>0.1665 0.25</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.19 0.26</maxSize>
+            <path>./system/logos/system-logo-color/${system.theme}.svg</path>
+            <default>./system/custom/logocolor/${system.theme}.svg</default>
+            <zIndex>14</zIndex>
+        </image>
+    <image name="logo2">
+            <pos>0.1665 0.251</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.19 0.26</maxSize>
+            <path>./system/logos/system-logo-color/${system.theme}.svg</path>
+            <default>./system/custom/logocolor/${system.theme}.svg</default>
+            <color>000000</color>
+            <zIndex>13</zIndex>
+        </image>
+        <image name="carbox1">
+            <pos>0.29 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox1a">
+            <pos>0.29 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox1b">
+            <pos>0.29 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./tileb.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="carbox2">
+        <visible>false</visible>
+        </image>
+        <image name="carbox2a">
+        <visible>false</visible>
+        </image>
+        <image name="carbox2b">
+        <visible>false</visible>
+        </image>
+         <image name="carbox4">
+            <pos>0.5175 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox4a">
+            <pos>0.5175 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox4b">
+            <pos>0.5175 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./tileb.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="carbox5">
+            <pos>0.7425 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox5a">
+            <pos>0.7425 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox5b">
+            <pos>0.7425 0.11</pos>
+            <size>0.2025 0.28</size>
+            <path>./tileb.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="carbox3">
+            <pos>0.059 0.41</pos>
+            <size>0.215 0.28</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>13</zIndex>
+        </image>
+        <image name="carbox3a">
+            <pos>0.059 0.41</pos>
+            <size>0.215 0.28</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>14</zIndex>
+        </image>
+        <image name="carbox3b">
+            <pos>0.059 0.41</pos>
+            <size>0.215 0.28</size>
+            <path>./tileb.svg</path>
+            <color>${tile3}</color>
+            <zIndex>15</zIndex>
+        </image>
+        <image name="vidbox1">
+            <pos>0.2885 0.41</pos>
+            <size>0.655 0.48</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="vidbox2">
+            <pos>0.2885 0.41</pos>
+            <size>0.655 0.48</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="vidbox3">
+            <pos>0.2885 0.41</pos>
+            <size>0.655 0.48</size>
+            <path>./tilea.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+         <video name="main">
+            <imageType>screenshot</imageType>
+            <pos>0.616 0.65</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.645 0.46</maxSize>
+            <pillarboxes>false</pillarboxes>
+        </video>
+        <text name="name">
+            <pos>0.616 0.65</pos>
+            <size>0.2 0.2</size>
+            <origin>0.5 0.5</origin>
+            <metadata>name</metadata>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${descFont}</fontSize>
+            <lineSpacing>0.95</lineSpacing>
+            <container>false</container>
+            
+            <systemNameSuffix>false</systemNameSuffix>
+            <color>${textColor}</color>
+            <horizontalAlignment>center</horizontalAlignment>
+            <zIndex>4</zIndex>
+        </text>
+
+
+        <image name="text boxC1">
+            <pos>0.059 0.71</pos>
+            <size>0.215 0.0825</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="text boxC2">
+            <pos>0.059 0.71</pos>
+            <size>0.215 0.0825</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="text boxC3">
+            <pos>0.059 0.71</pos>
+            <size>0.215 0.0825</size>
+            <path>./tile.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+         <text name="player">
+            <metadata>players</metadata>
+            <pos>0.165 0.71</pos>
+            <size>0.08 0.08</size>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${metaFont}</fontSize>
+            <defaultValue>:space:</defaultValue>
+            <lineSpacing>0.975</lineSpacing>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${textColor}</color>
+        </text>
+         <image name="playericons">
+            <pos>0.1 0.7225</pos>
+            <size>0.035 0.05</size>
+            <path>./player.svg</path>
+            <color>${textColor}</color>
+            <zIndex>6</zIndex>
+        </image>
+        <badges name="all">
+            <pos>0.059 0.805</pos>
+            <size>0.21 .09</size>
+            <direction>row</direction>
+            <lines>1</lines>
+            <itemsPerLine>3</itemsPerLine>
+            <slots>controller, completed, favorite</slots>
+            <controllerPos>0.5 0.5</controllerPos>
+            <controllerSize>0.95</controllerSize>
+            <customBadgeIcon badge="manual">./assets/${colorscheme}/manual.svg</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./assets/${colorscheme}/fave.svg</customBadgeIcon>
+            <customBadgeIcon badge="completed">./assets/${colorscheme}/completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/${colorscheme}/control.svg</customBadgeIcon>
+        </badges>
+    </view>
+    </variant>
+
+<variant name="SM">
+	<view name="gamelist">
+    <carousel name="list">
+        <type>vertical</type>
+        <pos>0.065 0.105</pos>
+        <size>0.875 0.79</size>
+        <itemSize>0.875 0.08</itemSize>
+        <itemScale>1</itemScale>
+        <imageType>none</imageType>
+        <selectedItemOffset>0.25 0</selectedItemOffset>
+        <selectedItemMargins>0 0.105</selectedItemMargins>
+        <itemHorizontalAlignment>left</itemHorizontalAlignment>
+        <itemVerticalAlignment>top</itemVerticalAlignment>
+        <verticalOffset>0.06</verticalOffset>
+        <maxItemCount>8</maxItemCount>
+        <fontPath>./ds.ttf</fontPath>
+        <fontSize>${textlist}</fontSize>
+        <lineSpacing>0.8</lineSpacing>
+        <systemNameSuffix>false</systemNameSuffix>
+        <itemTransitions>instant</itemTransitions>
+        <color>00000000</color>
+        <textColor>${textColor}</textColor>
+        <zIndex>8</zIndex>
+    </carousel>
+    
+         <image name="text boxC1">
+            <pos>0.25 0.595</pos>
+            <size>0.16 0.0825</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>13</zIndex>
+        </image>
+        <image name="text boxC2">
+            <pos>0.25 0.595</pos>
+            <size>0.16 0.0825</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>14</zIndex>
+        </image>
+        <image name="text boxC3">
+            <pos>0.25 0.595</pos>
+            <size>0.16 0.0825</size>
+            <path>./tiled.svg</path>
+            <color>${tile3}</color>
+            <zIndex>15</zIndex>
+        </image>
+         <text name="name">
+            <metadata>name</metadata>
+            <container>true</container>
+            <containerType>horizontal</containerType>
+            <pos>0.25 0.515</pos>
+            <size>0.68 0.08</size>
+            <fontPath>./ds.ttf</fontPath>
+        <systemNameSuffix>false</systemNameSuffix>
+            <fontSize>${textlist}</fontSize>
+            <lineSpacing>0.975</lineSpacing>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${textColor}</color>
+            <zIndex>15</zIndex>
+        </text>
+         <text name="player">
+            <metadata>players</metadata>
+            <pos>0.315 0.595</pos>
+            <size>0.08 0.08</size>
+            <fontPath>./ds.ttf</fontPath>
+            <fontSize>${gridFont}</fontSize>
+            <lineSpacing>0.975</lineSpacing>
+            <verticalAlignment>center</verticalAlignment>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${textColor}</color>
+            <zIndex>15</zIndex>
+        </text>
+
+         <image name="playericons">
+            <pos>0.27 0.595</pos>
+            <size>0.05 0.08</size>
+            <path>./player.svg</path>
+            <color>${textColor}</color>
+            <zIndex>16</zIndex>
+        </image>
+         <badges name="all">
+            <pos>0.425 0.597</pos>
+            <size>0.27 .1</size>
+            <direction>row</direction>
+            <lines>1</lines>
+            <itemsPerLine>4</itemsPerLine>
+            <slots>controller, completed, favorite, manual</slots>
+            <controllerPos>0.5 0.5</controllerPos>
+            <controllerSize>0.95</controllerSize>
+            <customBadgeIcon badge="manual">./assets/${colorscheme}/manual.svg</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./assets/${colorscheme}/fave.svg</customBadgeIcon>
+            <customBadgeIcon badge="completed">./assets/${colorscheme}/completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/${colorscheme}/control.svg</customBadgeIcon>
+            <zIndex>15</zIndex>
+        </badges>
+         <image name="cover">
+            <imageType>cover</imageType>
+            <pos>0.155 0.6</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.2 0.17</maxSize>
+            <zIndex>15</zIndex>
+        </image>
+
+        <image name="select box1">
+            <pos>0.058 0.505</pos>
+            <size>0.885 0.19</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>13</zIndex>
+        </image>
+        <image name="select box2">
+            <pos>0.058 0.505</pos>
+            <size>0.885 0.19</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>14</zIndex>
+        </image>
+        <image name="select box3">
+            <pos>0.058 0.505</pos>
+            <size>0.885 0.19</size>
+            <path>./tilec.svg</path>
+            <color>${tile3}</color>
+            <zIndex>15</zIndex>
+        </image>
+         <image name="carbox1">
+            <pos>0.058 0.41</pos>
+            <size>0.885 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox1a">
+            <pos>0.058 0.41</pos>
+            <size>0.885 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox1b">
+            <pos>0.058 0.41</pos>
+            <size>0.885 0.08</size>
+            <path>./tilec.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="carbox2">
+            <pos>0.058 0.31</pos>
+            <size>0.885 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox2a">
+            <pos>0.058 0.31</pos>
+            <size>0.885 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox2b">
+            <pos>0.058 0.31</pos>
+            <size>0.885 0.08</size>
+            <path>./tilec.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="carbox3">
+            <pos>0.058 0.21</pos>
+            <size>0.885 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox3a">
+            <pos>0.058 0.21</pos>
+            <size>0.885 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox3b">
+            <pos>0.058 0.21</pos>
+            <size>0.885 0.08</size>
+            <path>./tilec.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="carbox4">
+            <pos>0.058 0.11</pos>
+            <size>0.885 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox4a">
+            <pos>0.058 0.11</pos>
+            <size>0.885 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox4b">
+            <pos>0.058 0.11</pos>
+            <size>0.885 0.08</size>
+            <path>./tilec.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="carbox5">
+            <pos>0.058 0.71</pos>
+            <size>0.885 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox5a">
+            <pos>0.058 0.71</pos>
+            <size>0.885 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox5b">
+            <pos>0.058 0.71</pos>
+            <size>0.885 0.08</size>
+            <path>./tilec.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="carbox6">
+            <pos>0.058 0.81</pos>
+            <size>0.885 0.08</size>
+            <path>./space.webp</path>
+            <color>${tile1}</color>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="carbox6a">
+            <pos>0.058 0.81</pos>
+            <size>0.885 0.08</size>
+            <path>./tileback.svg</path>
+            <color>${tile2}</color>
+            <zIndex>4</zIndex>
+        </image>
+        <image name="carbox6b">
+            <pos>0.058 0.81</pos>
+            <size>0.885 0.08</size>
+            <path>./tilec.svg</path>
+            <color>${tile3}</color>
+            <zIndex>5</zIndex>
+        </image>
+    </view>
+
+    </variant>
+</theme>

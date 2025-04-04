@@ -1,0 +1,188 @@
+<theme>
+    <include>./system/metadata/_default.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
+    <include>./system/custom/metadata/${system.theme}.xml</include>
+
+
+<aspectRatio name="4:3">
+        <include>./4-3.xml</include>
+    </aspectRatio>
+
+<aspectRatio name="16:9">
+        <include>./16-9.xml</include>
+    </aspectRatio>
+    
+    <aspectRatio name="16:10">
+        <include>./16-10.xml</include>
+    </aspectRatio>
+    <aspectRatio name="1:1">
+        <include>./1-1.xml</include>
+    </aspectRatio>
+    <aspectRatio name="19.5:9">
+        <include>./195-9.xml</include>
+    </aspectRatio>
+<colorScheme name="ds">
+    <variables>
+    <colorscheme>ds</colorscheme>
+    <back1>747473</back1>
+    <back2>FFFFFF</back2>
+    <back3>c8c8c8</back3>
+    <tile1>F0F0F0</tile1>
+    <tile2>FFFFFF</tile2>
+    <tile3>343434</tile3>
+    <textColor>000000</textColor>
+    <logoColor>000000</logoColor>
+    <selectorColor>FF2020</selectorColor>
+    </variables>
+    </colorScheme>
+
+    <colorScheme name="dsdark">
+    <variables>
+    
+    <colorscheme>dsdark</colorscheme>
+    <back1>232323</back1>
+    <back2>777777</back2>
+    <back3>383838</back3>
+    <tile1>707070</tile1>
+    <tile2>909090</tile2>
+    <tile3>121212</tile3>
+    <textColor>d9d9d9</textColor>
+    <logoColor>d9d9d9</logoColor>
+    <selectorColor>FF0000</selectorColor>
+    </variables>
+    </colorScheme>
+
+    <colorScheme name="nes">
+    <variables>
+    <colorscheme>nes</colorscheme>
+    <back1>dd2020</back1>
+    <back3>e5e5e5</back3>
+    <back2>a5a2a2</back2>
+    <tile1>e5e5e5</tile1>
+    <tile2>a5a2a2</tile2>
+    <tile3>0d0c0c</tile3>
+    <textColor>0d0c0c</textColor>
+    <logoColor>0d0c0c</logoColor>
+    <selectorColor>DD2020</selectorColor>
+    </variables>
+    </colorScheme>
+
+    <colorScheme name="snes">
+    <variables>
+    <colorscheme>snes</colorscheme>
+    <back1>4f43ae</back1>
+    <back3>b5b6e4</back3>
+    <back2>cec9cc</back2>
+    <tile1>cec9cc</tile1>
+    <tile2>b5b6e4</tile2>
+    <tile3>211a21</tile3>
+    <textColor>0d0c0c</textColor>
+    <logoColor>0d0c0c</logoColor>
+    <selectorColor>4f43ae</selectorColor>
+    </variables>
+    </colorScheme>
+
+     <colorScheme name="fam">
+    <variables>
+    <colorscheme>fam</colorscheme>
+    <back1>c59a6f</back1>
+    <back2>561420</back2>
+    <back3>821122</back3>
+    <tile1>561420</tile1>
+    <tile2>821122</tile2>
+    <tile3>c59a6f</tile3>
+    <textColor>c59a6f</textColor>
+    <logoColor>c59a6f</logoColor>
+    <selectorColor>c59a6f</selectorColor>
+    </variables>
+    </colorScheme>
+
+      <colorScheme name="gold">
+    <variables>
+    <colorscheme>gold</colorscheme>
+    <back1>d4af37</back1>
+    <back2>000000</back2>
+    <back3>222222</back3>
+    <tile1>000000</tile1>
+    <tile2>000000</tile2>
+    <tile3>d4af37</tile3>
+    <textColor>d4af37</textColor>
+    <logoColor>d4af37</logoColor>
+    <selectorColor>d4af37</selectorColor>
+    </variables>
+    </colorScheme>
+    <colorScheme name="oled">
+    <variables>
+    <colorscheme>oled</colorscheme>
+    <back1>FFFFFF</back1>
+    <back2>000000</back2>
+    <back3>222222</back3>
+    <tile1>000000</tile1>
+    <tile2>000000</tile2>
+    <tile3>FFFFFF</tile3>
+    <textColor>FFFFFF</textColor>
+    <logoColor>FFFFFF</logoColor>
+    <selectorColor>FFFFFF</selectorColor>
+    </variables>
+    </colorScheme>
+
+     <colorScheme name="blue">
+    <variables>
+    <colorscheme>blue</colorscheme>
+    <back1>CED8F7</back1>
+    <back2>4A6DE5</back2>
+    <back3>3057E7</back3>
+    <tile1>4A6DE5</tile1>
+    <tile2>4A5DE5</tile2>
+    <tile3>CED8F7</tile3>
+    <textColor>CED8F7</textColor>
+    <logoColor>CED8F7</logoColor>
+    <selectorColor>CED8F7</selectorColor>
+    </variables>
+    </colorScheme>
+
+    <view name="system,gamelist">
+   <systemstatus name="menustatus">
+        <pos>0.99 0.0075</pos>
+        <origin>1 0</origin>
+        <color>${textColor}</color>
+            <fontPath>./ds.ttf</fontPath>
+        <entries>all</entries>
+        </systemstatus>
+        <clock name="menuclock">
+            <fontSize>0.04</fontSize>
+            <rotation>0</rotation>
+            <pos>0.01 0.005</pos>
+            <size>0.05 0.04</size>
+            <origin>0 0</origin>
+            <fontPath>./ds.ttf</fontPath>
+            <horizontalAlignment>left</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${textColor}</color>
+        </clock>
+        </view>
+        
+   <view name="all">
+        <sound name="systembrowse">
+            <path>./assets/sounds/scroll.wav</path>
+        </sound>
+        <sound name="quicksysselect">
+            <path>./assets/sounds/systembrowse.wav</path>
+        </sound>
+        <sound name="select">
+            <path>./assets/sounds/select.wav</path>
+        </sound>
+        <sound name="back">
+            <path>./assets/sounds/back.wav</path>
+        </sound>
+        <sound name="scroll">
+            <path>./assets/sounds/scroll.wav</path>
+        </sound>
+        <sound name="favorite">
+            <path>./assets/sounds/fave.wav</path>
+        </sound>
+        <sound name="launch">
+            <path>./assets/sounds/launch.wav</path>
+        </sound>
+    </view>
+</theme>
