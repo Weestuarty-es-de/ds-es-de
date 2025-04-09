@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.62760417"
-     inkscape:cx="960"
-     inkscape:cy="540.14938"
+     inkscape:cx="839.70124"
+     inkscape:cy="541.74274"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -46,7 +46,7 @@
        height="265"
        x="10.375"
        y="10.375"
-       rx="25"
-       ry="25" />
+       rx="0"
+       ry="0" />
   </g>
 </svg>
