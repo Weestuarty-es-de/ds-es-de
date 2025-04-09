@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="164.5791"
-     inkscape:cy="50.558135"
+     inkscape:zoom="90.509667"
+     inkscape:cx="200.17751"
+     inkscape:cy="195.17252"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -63,14 +63,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:url(#linearGradient8184);fill-opacity:1;stroke:#343434;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect231"
-       width="50.916668"
-       height="50.916668"
-       x="1"
-       y="1"
-       ry="0"
-       rx="0" />
+    <g
+       id="rect231">
+      <path
+         style="color:#000000;fill:url(#linearGradient8184);stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;-inkscape-stroke:none;paint-order:fill markers stroke"
+         d="M 1,1 H 51.916668 V 51.916668 H 1 Z"
+         id="path1659" />
+      <path
+         style="color:#000000;fill:#343434;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;-inkscape-stroke:none;paint-order:fill markers stroke"
+         d="M 1,0.65039062 0.65039062,0.65 V 52.268 L 1,52.267578 H 51.916016 L 52.267578,52.268 V 0.65 l -0.351562,1.9531e-4 z M 1.3496094,1.3496094 H 51.566406 V 51.566406 H 1.3496094 Z"
+         id="path1661"
+         sodipodi:nodetypes="cccccccccccccc" />
+    </g>
   </g>
 </svg>
